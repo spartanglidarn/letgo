@@ -1,0 +1,15 @@
+{
+    "name": "erikbostrom/letgo",
+    "description": "Letgo test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "spartanglidarn",
+            "email": "erikbostrom1@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
