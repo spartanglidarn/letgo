@@ -1,0 +1,13 @@
+version: '2'
+services:
+  php-apache:
+    container_name: TwitterApi
+    build:
+      context: ./
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/application
+    env_file:
+      - .env
+    
