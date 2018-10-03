@@ -15,8 +15,8 @@ class Tweet
     }
 
 
-    public function textToUpper ()
+    public function shoutText()
     {
-        $this->text = strtoupper($this->text);
+        return strtoupper($this->text);
     }
 }
