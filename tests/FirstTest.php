@@ -8,6 +8,6 @@ final class FirstTest extends TestCase
     public function testPhpunit(): void
     {
         $test = new Acme\First;
-        $this->assert($test->phpunit());
+        $this->assertTrue($test->phpunit());
     }
 }

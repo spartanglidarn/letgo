@@ -1,4 +1,7 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
 
-new Acme\First();
+use Acme\Requests\TwitterRequest;
+
+$twitterRequest = new TwitterRequest('NateDiaz209', 5);
+$respons = $twitterRequest->executeRequest();
